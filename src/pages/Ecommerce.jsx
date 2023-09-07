@@ -18,9 +18,10 @@ const Ecommerce = () => {
 
   return (
     <div className='mt-24 '>
-      <div className='flex flex-wrap lg:flex-nowrap justify-center'>
+      {/* <div className='flex flex-wrap lg:flex-nowrap justify-center'> */}
+      <div className='flex flex-wrap justify-center'>
         <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg
-       h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-1 bg-no-repeat bg-cover bg-center bgforecom'>
+       h-44 rounded-xl w-full lg:w-1000 p-8 pt-9 m-1 bg-no-repeat bg-cover bg-center bgforecom'>
 
           <div className='flex justify-between items-center'>
 
@@ -44,7 +45,7 @@ const Ecommerce = () => {
 
         </div>
 
-        <div className='flex m-1 flex-wrap justify-center gap-1 items-center'>
+        <div className='flex m-1 flex-wrap justify-center gap-3 items-center mt-4'>
           {earningData.map((item) => (
             <div
               key={item.title}
