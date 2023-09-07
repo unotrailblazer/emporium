@@ -1,0 +1,83 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+
+.bgforecom{
+  background-image: url('./data/anoban.svg');
+  /* background-image: url('./data/ecombanner.jpg'); */
+}
+
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+ #preview {
+  background: transparent
+    /* url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png') */
+    /* url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/shirt.png') */
+    /* url('../src/data/ying.png') */
+    url('../src/data/dummyimage.png')
+    no-repeat;
+  display: inline-block;
+  scale: 80%;
+  /* height: 80px; */
+  height: 300px;
+  margin: 10px 0;
+  /* min-width: 300px; */
+  min-width: 400px;
+  /* max-width: 600px; */
+  max-width: 700px;
+  background-color: #008000;
+}
+
+.image_container{
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+  border: 5px solid #fff;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image_container img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+#herefont{
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+   font-size: larger;
+}
+
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: none;
+}
